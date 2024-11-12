@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-wrapper{
+    max-width: 650px;
+    margin: auto;
+    background-color: #fbd2d2;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+form div{
+    padding: 15px 0;
+}
+
+form div label{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+form div input{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+#login_button, #editButton{
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 18px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#login_button:hover, #register_button:hover, #registration_button:hover{
+    background-color: rgb(255, 81, 81);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.no-acc-register{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#register_button, #registration_button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: auto;
+}
+
+.custom-modal{
+    display: none;
+    background-color: #fbd2d2;
+    box-shadow: rgba(255, 255, 255, 0.9) 0 0 1000px 1000px;
+    max-width: 650px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#closeModal{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+form ul li{
+    color: red;
+}
+
+form ul{
+    list-style: none;
+}
+
+.inner-containter{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+.inner-containter.left-side{
+    text-align: center;
+}
+
+.inner-containter.right-side form{
+    display: flex;
+    height: 100px;
+}
+
+.inner-containter.inner-containter.right-side form textarea{
+    width: 85%;
+    border: 0;
+    padding: 10px;
+    resize: none;
+    outline-color: red;
+}
+
+.inner-containter.right-side form button{
+    width: 15%;
+    border: 0;
+}
+
+#deleteButton{
+    background-color: rgb(255, 81, 81);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 8px 25px;
+    font-size: 14px;
+    width: auto;
+    border-radius: 8px;
+}
+
+#editButton:hover{
+    background-color: rgb(255, 81, 81);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+#deleteButton:hover{
+    color: rgb(255, 81, 81);
+    background-color: rgb(255, 255, 255);
+}
+
+#allPostsWrapper .single-post{
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-top: 15px;
+    color: #000;
+}
+
+#allPostsWrapper .single-post .post-content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#allPostWrapper .single-post .post-comments form{
+    height: 30px;
+    margin-top: 15px;
+}
+
+#allPostsWrapper .single-post .post-comments form input {
+    width: 85%;
+    padding: 0 10px;
+}
+
+#allPostsWrapper .single-post .post-comments form button {
+    width: 15%;
+    background-color: grey;
+}
+
